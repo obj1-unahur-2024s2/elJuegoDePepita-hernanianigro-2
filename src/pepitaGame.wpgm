@@ -3,16 +3,14 @@ import comidas.*
 import niveles.*
 import extras.*
 import wollok.game.*
+import randomizer.*
 
 program PepitaGame {
 	game.title("Pepita")
 	game.height(10)
 	game.width(10)
 	game.boardGround("fondo2.jpg")
-
-	// Hacer los arreglos para que pueda ejecutar tutorial1.iniciar()
-
+	tutorial1.iniciar()
 	game.showAttributes(pepita) //Debug
-
 	game.start()
 }
